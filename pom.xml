@@ -135,11 +135,6 @@
 			<version>4.2.0.Final</version>
 		</dependency>
 		<dependency>
-			<groupId>com.agile</groupId>
-			<artifactId>zip</artifactId>
-			<version>1.1</version>
-		</dependency>
-		<dependency>
 			<groupId>org.mybatis</groupId>
 			<artifactId>mybatis</artifactId>
 			<version>3.4.1</version>
