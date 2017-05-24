@@ -1,4 +1,4 @@
-import org.junit.Test;
+/*import org.junit.Test;
 
 import com.wm.project.bean.SysUser;
 import com.wm.project.common.redis.cluster.JedisClusterClient;
@@ -18,3 +18,4 @@ public class TestRedis {
 	System.out.println(new ObjectsTranscoder<SysUser>().deserialize(JedisClusterClient.get("user".getBytes())).getName());
 }
 }
+*/
