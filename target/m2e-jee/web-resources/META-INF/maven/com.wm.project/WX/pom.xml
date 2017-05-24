@@ -86,12 +86,6 @@
 			<version>4.1.6</version>
 		</dependency>
 		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>4.8</version>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
 			<groupId>org.aspectj</groupId>
 			<artifactId>aspectjrt</artifactId>
 			<version>1.6.8</version>
@@ -201,6 +195,6 @@
 		</dependency>
 	</dependencies>
 	<build>
-		<finalName>MAWepPro</finalName>
+		<finalName>wx</finalName>
 	</build>
 </project>

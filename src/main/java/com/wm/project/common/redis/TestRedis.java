@@ -1,12 +1,11 @@
-package com.wm.project.common.redis;
+/*package com.wm.project.common.redis;
 
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
-import org.junit.Before;
-import org.junit.Test;
+import org.aspectj.lang.annotation.Before;
 
 import redis.clients.jedis.Jedis;
 
@@ -21,9 +20,9 @@ public class TestRedis {
        // jedis.auth("admin");  
     }
     
-    /**
+    *//**
      * redis存储字符串
-     */
+     *//*
     @Test
     public void testString() {
         //-----添加数据----------  
@@ -42,9 +41,9 @@ public class TestRedis {
         
     }
     
-    /**
+    *//**
      * redis操作Map
-     */
+     *//*
     @Test
     public void testMap() {
         //-----添加数据----------  
@@ -73,9 +72,9 @@ public class TestRedis {
         }  
     }
     
-    /** 
+    *//** 
      * jedis操作List 
-     */  
+     *//*  
     @Test  
     public void testList(){  
         //开始前，先移除所有的内容  
@@ -96,9 +95,9 @@ public class TestRedis {
         System.out.println(jedis.lrange("java framework",0,-1));
     }  
     
-    /** 
+    *//** 
      * jedis操作Set 
-     */  
+     *//*  
     @Test  
     public void testSet(){  
         //添加  
@@ -129,9 +128,9 @@ public class TestRedis {
         System.out.println(jedis.lrange("a",0,-1));  
     }  
     
-   /* @Test
+    @Test
     public void testRedisPool() {
         RedisUtil.getJedis().set("newname", "中文测试");
         System.out.println(RedisUtil.getJedis().get("newname"));
-    }*/
-}
+    }
+}*/
