@@ -121,9 +121,10 @@ public class WXWebController {
 	public  String intelligentSemantic(IntelligentWordEntity intelligent,HttpServletRequest request) throws Exception{
 		String access_token=getAccess_Token(request);
 		String url="https://api.weixin.qq.com/semantic/semproxy/search?access_token="+access_token;
-		String params=net.sf.json.JSONObject.fromObject(intelligent).toString();
-		String result=HttpRequestUtils.sendPost(url, params, null);
-		return result;
+		//String params=net.sf.json.JSONObject.fromObject(intelligent).toString();
+		//String result=HttpRequestUtils.sendPost(url, params, null);
+		//return result;
+		return null;
 	}
 	@RequestMapping("/userAuth.html")
 	public String userAuth(HttpServletResponse response,Model model) throws Exception{
